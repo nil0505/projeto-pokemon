@@ -24,8 +24,8 @@ botaoAlterarTema.addEventListener("click", () => {
     body.classList.toggle("modo-escuro");
 
     if (modoEscuroEstaAtivo) {
-        imagembotaoTrocaDeTema.setAttribute("src", "./src/imagens/moon.png")
+        imagembotaoTrocaDeTema.setAttribute("projeto-pokemon", "./imagem/moon.png")
     } else {
-        imagembotaoTrocaDeTema.setAttribute("src", "./src/imagens/sun.png")
+        imagembotaoTrocaDeTema.setAttribute("projeto-pokemon", "./imagem/sun.png")
     }
 });
